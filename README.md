@@ -1,6 +1,6 @@
 # Heb-Piper-TTS-Gemma-G2P-ONNX
 
-Text to speech with Hebrew G2P and TTS models based on Piper/Gemma3.
+Text to speech with Hebrew G2P and TTS models based on Piper/Gemma3
 
 # Prerequisites
 
