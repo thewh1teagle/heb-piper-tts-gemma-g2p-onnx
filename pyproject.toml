@@ -1,0 +1,16 @@
+[project]
+name = "heb-piper-tts-gemma-g2p-onnx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "onnxruntime>=1.23.0",
+    "optimum-onnx",
+    "peft>=0.17.1",
+    "piper-onnx>=1.0.6",
+    "soundfile>=0.13.1",
+]
+
+[tool.uv.sources]
+optimum-onnx = { git = "https://github.com/thewh1teagle/optimum-onnx.git", rev = "hebrew1" }

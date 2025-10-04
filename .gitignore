@@ -1,0 +1,7 @@
+*.onnx
+*.wav
+*.json
+gemma3_onnx/
+__pycache__/
+.DS_Store
+*.pyc
