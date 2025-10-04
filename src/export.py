@@ -1,6 +1,9 @@
 """
 Export script to convert LoRA-adapted model to ONNX format.
 Usage: uv run src/export.py
+
+Upload using:
+uv run hf upload --repo-type model thewh1teagle/gemma3-270b-heb-g2p ./gemma3_onnx             
 """
 
 from peft import PeftModel
